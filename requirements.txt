@@ -1,0 +1,7 @@
+pyrofork
+aiohttp
+beautifulsoup4
+cloudscraper
+pymongo
+requests
+python-dotenv
