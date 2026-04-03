@@ -20,12 +20,12 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "@Nachannel4") # example Cluster0
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.cymru/")
 TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003715942118"))
-TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-5118678943"))
+TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "0"))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "0"))
 TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/Dx8QVdc/file-1799.jpg") #torrant Pic
 BOT_TAG = os.getenv("BOT_TAG", "") # File Prefix
 
 # Internal
-PING_INTERVAL = int(os.getenv("PING_INTERVAL", "120"))
-SCRAPE_INTERVAL = int(os.getenv("SCRAPE_INTERVAL", "300"))  # 5 min
+PING_INTERVAL = int(os.getenv("PING_INTERVAL", "100"))
+SCRAPE_INTERVAL = int(os.getenv("SCRAPE_INTERVAL", "200"))  # 5 min
 SIZE_LIMIT_GB = int(os.getenv("SIZE_LIMIT_GB", "50"))  # Default: 50 GB
