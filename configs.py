@@ -22,8 +22,8 @@ TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.cymru/")
 TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003715942118"))
 TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "0"))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "0"))
-TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/Dx8QVdc/file-1799.jpg") #torrant Pic
-BOT_TAG = os.getenv("BOT_TAG", "") # File Prefix
+TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://image2url.com/r2/default/images/1772360165170-81da9e56-998b-473c-b8f0-180879946d30.png") #torrant Pic
+BOT_TAG = os.getenv("BOT_TAG", "@S95Hub") # File Prefix
 
 # Internal
 PING_INTERVAL = int(os.getenv("PING_INTERVAL", "100"))
